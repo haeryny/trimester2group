@@ -124,3 +124,20 @@ feed:
   
 exclude:
   - settings.ini
+
+minima:
+  skin: dark
+  #  social_links:
+  #    twitter: NighthawkCoding
+  #    github: nighthawkcoders
+  #   youtube_channel: UClIKOsDS5dsfzFA3zveDT3Q
+  social_links:
+    - { platform: github, user_url: ”
+https://github.com/nighthawkcoders
+“}
+    - { platform: twitter, user_url: ”
+https://twitter.com/NighthawkCoding
+“}
+    - { platform: youtube, user_url: ”
+https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q
+“}
