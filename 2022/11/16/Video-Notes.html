@@ -117,7 +117,13 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#3.3-Notes-Video-1">3.3 Notes Video 1 </a></li>
+<li class="toc-entry toc-h2"><a href="#3.3-Notes-Video-1">3.3 Notes Video 1 </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Learning-Objective">Learning Objective </a></li>
+<li class="toc-entry toc-h3"><a href="#Essential-Knowledge">Essential Knowledge </a></li>
+<li class="toc-entry toc-h3"><a href="#Examples">Examples </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h2"><a href="#3.3-Notes-Video-2">3.3 Notes Video 2 </a></li>
 <li class="toc-entry toc-h2"><a href="#3.3-Notes-Video-3">3.3 Notes Video 3 </a></li>
 <li class="toc-entry toc-h2"><a href="#3.4-Notes-Video-1">3.4 Notes Video 1 </a></li>
@@ -136,9 +142,81 @@ window.onload = wrap_img;
 <h2 id="3.3-Notes-Video-1">
 <a class="anchor" href="#3.3-Notes-Video-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.3 Notes Video 1<a class="anchor-link" href="#3.3-Notes-Video-1"> </a>
 </h2>
+<h3 id="Learning-Objective">
+<a class="anchor" href="#Learning-Objective" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning Objective<a class="anchor-link" href="#Learning-Objective"> </a>
+</h3>
+<p>Express an algorithm that uses sequencing without using a programming language</p>
+<h3 id="Essential-Knowledge">
+<a class="anchor" href="#Essential-Knowledge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Essential Knowledge<a class="anchor-link" href="#Essential-Knowledge"> </a>
+</h3>
+<ul>
+<li>Algorithms can be expressed in a variety of ways and can be executed by programs which are implemented using programming languages. </li>
+<li>Every algorithm can be constructed using combinations of sequencing, selection, and iteration</li>
+</ul>
+<p>An algorithm is a finite set of instructions that accomplish a specific task, us as humans, do algorithms on a daily basis.</p>
+<p>Sequencing is doing steps in order, for example, doing the first step then the second then the third, etc.</p>
+<p>Selection is when the programmer decides between two different outcomes.</p>
+<p>Iteration is when you have to repeat a step until that condition is fulfilled.</p>
+<h3 id="Examples">
+<a class="anchor" href="#Examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples<a class="anchor-link" href="#Examples"> </a>
+</h3>
+<p>Most algorithms use a flow chart to demonstrate how the algorithm proceeds.</p>
+<ol>
+<li>Set largestNumber to 0</li>
+<li>Get next number in list</li>
+<li>If number is larger than largestNumber then set largestNumber to number</li>
+<li>If there are more numbers in list, go back to Step 2</li>
+<li>Display largestNumber</li>
+</ol>
+<p>Sequencing: Steps 1-5 in order</p>
+<p>Selection: Step 3</p>
+<p>Iteration: Step 4</p>
+
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## These are all the steps that the computer goes through so this is sequencing</span>
+
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span>
+<span class="n">evens</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1">## This is selection where they go through the numbers and decide whether if it is even or not. </span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+    <span class="c1">## This is iteration because they repeat the steps until they go through all the numbers in the list. </span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="n">evens</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">evens</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[0, 2, 4, 6, 8, 10]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
