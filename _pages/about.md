@@ -4,8 +4,5 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+The people in the group are Ellie, Haeryn, Kaylee, and Theo. 
+Ellie is the frontend developer, Theo is the backend developer, Haeryn is the scrum master, Kaylee is the Dev Ops. 
