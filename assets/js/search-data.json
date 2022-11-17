@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Homework Assignment for 3.3-4",
-            "content": "3.3 Video 1 Hacks . 3.3 Video 2 Hacks . 3.3 Video 3 Hacks . 3.4 Video 1 Hacks .",
+            "content": "3.3 Video 1 Hacks . I will show example of a piece of code and the student has to label which one is the sequence, selection, and iteration. There will be two examples. . numbers = [0,1,2,3,4,5,6,7,8,9,10] evens = [] # This is selection where they go through the numbers and decide whether if it is even or not. for i in numbers: # This is iteration because they repeat the steps until they go through all the numbers in the list. if (numbers[i] % 2 == 0): evens.append(numbers[i]) print(evens) . [0, 2, 4, 6, 8, 10] . # This is the sequence i = 1 starString = &quot;*&quot; # This is iteration because they repeat until i reaches 5 while i &lt;= 5: j = 1 # This is the selection where they decide what j is while j &lt;= i: print (&quot;*&quot;, end= &quot;&quot;) j += 1 print () i += 1 . * ** *** **** ***** . 3.3 Video 2 Hacks . 3.3 Video 3 Hacks . 3.4 Video 1 Hacks .",
             "url": "https://haeryny.github.io/trimester2group/2022/11/17/Hacks.html",
             "relUrl": "/2022/11/17/Hacks.html",
             "date": " • Nov 17, 2022"
@@ -58,7 +58,7 @@
     
         ,"post5": {
             "title": "CB 3.3 Topic HW",
-            "content": "Plan for Assignment: . Explain the topic and then make practice problems for class to try, then I want to have them create their own CollegeBoard with certain requirements. | .",
+            "content": "Plan for Assignment: . Explain the topic and then make practice problems for class to try, then I want to have them create their own CollegeBoard with certain requirements. | . Practice Problem #1 . a &lt;-- 12 . b &lt;-- 3 . c &lt;-- 8 . d &lt;-- 5 . a &lt;-- b . b &lt;-- c + d . d &lt;-- b . find the value for a, b, c, d .",
             "url": "https://haeryny.github.io/trimester2group/2022/11/16/.3-Topics-HW.html",
             "relUrl": "/2022/11/16/.3-Topics-HW.html",
             "date": " • Nov 16, 2022"
