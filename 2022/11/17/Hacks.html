@@ -117,7 +117,12 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#3.3-Video-1-Hacks">3.3 Video 1 Hacks </a></li>
+<li class="toc-entry toc-h2"><a href="#3.3-Video-1-Hacks">3.3 Video 1 Hacks </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Answers-1">Answers 1 </a></li>
+<li class="toc-entry toc-h3"><a href="#Answers-2">Answers 2 </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h2"><a href="#3.3-Video-2-Hacks">3.3 Video 2 Hacks </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Plan-for-Assignment:">Plan for Assignment: </a></li>
@@ -164,9 +169,7 @@ window.onload = wrap_img;
 <div class=" highlight hl-python"><pre><span></span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span>
 <span class="n">evens</span> <span class="o">=</span> <span class="p">[]</span>
 
-<span class="c1"># This is selection where they go through the numbers and decide whether if it is even or not. </span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
-    <span class="c1"># This is iteration because they repeat the steps until they go through all the numbers in the list. </span>
     <span class="k">if</span> <span class="p">(</span><span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
         <span class="n">evens</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
 
@@ -194,6 +197,19 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Answers-1">
+<a class="anchor" href="#Answers-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Answers 1<a class="anchor-link" href="#Answers-1"> </a>
+</h3>
+<p>All the steps combined are sequencing</p>
+<p>The step "for i in numbers:" is iteration because they go through all the numbers.</p>
+<p>"if (numbers[i] % 2 == 0)" is selection because they sort each number to find the even ones.</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -201,13 +217,10 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="c1"># This is the sequence</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="n">starString</span> <span class="o">=</span> <span class="s2">"*"</span>
-<span class="c1"># This is iteration because they repeat until i reaches 5</span>
 <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
   <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span>
-  <span class="c1"># This is the selection where they decide what j is</span>
   <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">i</span><span class="p">:</span>
     <span class="nb">print</span> <span class="p">(</span><span class="s2">"*"</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span> <span class="s2">""</span><span class="p">)</span>
     <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
@@ -240,6 +253,19 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Answers-2">
+<a class="anchor" href="#Answers-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Answers 2<a class="anchor-link" href="#Answers-2"> </a>
+</h3>
+<p>All the steps are a sequence</p>
+<p>"While i &lt;= 5:" is iteration because they repeat until i reaches 5</p>
+<p>"While j &lt;= i:" is selection because this is where they decide what j is</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
